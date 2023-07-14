@@ -1,0 +1,85 @@
+2023-07-14 06:57:53,574 args = Namespace(batch_size=64, best_weights_path='bestweights', cuda=False, epoch=6, fusion_method='concat', gpu='0', image_model='resnet50', image_path='D:\\a学习资料\\3B\\当代人工智能\\实验\\lab5\\data\\raw\\img', log='log\\Train-Multi06-57-53', lr=0.001, max_len=32, pretrained_image_model_path='D:\\a学习资料\\3B\\当代人工智能\\实验\\lab5\\code\\model\\pretrained\\resnet\\resnet50.pth', pretrained_text_model_path='code/model/pretrained/sentiment-roberta', seed=717, text_model='roberta', text_path='D:\\a学习资料\\3B\\当代人工智能\\实验\\lab5\\data\\raw\\text', training_set_path='D:\\a学习资料\\3B\\当代人工智能\\实验\\lab5\\data\\train.txt', validation_size=0.2, wandb_id='', weight_decay=0.0001)
+2023-07-14 07:05:03,303 epoch:001  step:005/050  loss:0.918
+2023-07-14 07:11:19,057 epoch:001  step:010/050  loss:1.092
+2023-07-14 07:17:14,103 epoch:001  step:015/050  loss:0.815
+2023-07-14 07:23:13,028 epoch:001  step:020/050  loss:0.960
+2023-07-14 07:29:11,388 epoch:001  step:025/050  loss:1.119
+2023-07-14 07:35:14,572 epoch:001  step:030/050  loss:0.849
+2023-07-14 07:41:11,105 epoch:001  step:035/050  loss:0.982
+2023-07-14 07:47:07,202 epoch:001  step:040/050  loss:0.831
+2023-07-14 07:53:07,463 epoch:001  step:045/050  loss:0.846
+2023-07-14 07:59:05,796 epoch:001  step:050/050  loss:0.931
+2023-07-14 07:59:05,844 epoch:001  average_loss:0.958  time costed: 3600.858
+2023-07-14 08:02:36,273 current acc is 0.542, best acc is 0.542
+2023-07-14 08:02:36,273 time costed:3811.287s 
+
+2023-07-14 08:08:37,577 epoch:002  step:005/050  loss:0.793
+2023-07-14 08:14:32,980 epoch:002  step:010/050  loss:0.863
+2023-07-14 08:20:29,728 epoch:002  step:015/050  loss:0.946
+2023-07-14 08:26:29,837 epoch:002  step:020/050  loss:0.875
+2023-07-14 08:32:26,486 epoch:002  step:025/050  loss:0.779
+2023-07-14 08:38:19,747 epoch:002  step:030/050  loss:0.852
+2023-07-14 08:44:15,243 epoch:002  step:035/050  loss:0.860
+2023-07-14 08:50:09,801 epoch:002  step:040/050  loss:0.946
+2023-07-14 08:56:12,955 epoch:002  step:045/050  loss:0.937
+2023-07-14 09:02:09,935 epoch:002  step:050/050  loss:0.880
+2023-07-14 09:02:09,982 epoch:002  average_loss:0.941  time costed: 3573.693
+2023-07-14 09:05:49,545 current acc is 0.596, best acc is 0.596
+2023-07-14 09:05:49,545 time costed:3793.257s 
+
+2023-07-14 09:12:12,824 epoch:003  step:005/050  loss:0.937
+2023-07-14 09:18:36,130 epoch:003  step:010/050  loss:0.947
+2023-07-14 09:24:34,716 epoch:003  step:015/050  loss:0.874
+2023-07-14 09:30:26,918 epoch:003  step:020/050  loss:0.860
+2023-07-14 09:36:18,358 epoch:003  step:025/050  loss:0.854
+2023-07-14 09:42:07,021 epoch:003  step:030/050  loss:0.918
+2023-07-14 09:47:51,383 epoch:003  step:035/050  loss:0.812
+2023-07-14 09:53:42,602 epoch:003  step:040/050  loss:0.886
+2023-07-14 09:59:50,578 epoch:003  step:045/050  loss:0.820
+2023-07-14 10:05:53,174 epoch:003  step:050/050  loss:0.984
+2023-07-14 10:05:53,206 epoch:003  average_loss:0.905  time costed: 3603.648
+2023-07-14 10:09:25,831 current acc is 0.600, best acc is 0.600
+2023-07-14 10:09:25,831 time costed:3816.274s 
+
+2023-07-14 10:15:22,245 epoch:004  step:005/050  loss:0.899
+2023-07-14 10:21:12,930 epoch:004  step:010/050  loss:0.867
+2023-07-14 10:27:09,878 epoch:004  step:015/050  loss:0.840
+2023-07-14 10:33:06,051 epoch:004  step:020/050  loss:0.893
+2023-07-14 10:38:56,420 epoch:004  step:025/050  loss:0.908
+2023-07-14 10:44:46,025 epoch:004  step:030/050  loss:0.853
+2023-07-14 10:50:40,885 epoch:004  step:035/050  loss:0.847
+2023-07-14 10:56:36,028 epoch:004  step:040/050  loss:0.865
+2023-07-14 11:02:31,123 epoch:004  step:045/050  loss:0.781
+2023-07-14 11:08:38,255 epoch:004  step:050/050  loss:0.872
+2023-07-14 11:08:38,302 epoch:004  average_loss:0.875  time costed: 3552.470
+2023-07-14 11:12:09,491 current acc is 0.609, best acc is 0.609
+2023-07-14 11:12:09,491 time costed:3763.660s 
+
+2023-07-14 11:18:12,458 epoch:005  step:005/050  loss:0.849
+2023-07-14 11:24:05,492 epoch:005  step:010/050  loss:0.900
+2023-07-14 11:30:15,854 epoch:005  step:015/050  loss:0.922
+2023-07-14 11:36:13,299 epoch:005  step:020/050  loss:0.927
+2023-07-14 11:42:05,742 epoch:005  step:025/050  loss:0.767
+2023-07-14 11:48:03,404 epoch:005  step:030/050  loss:0.963
+2023-07-14 11:54:00,421 epoch:005  step:035/050  loss:0.887
+2023-07-14 12:00:01,968 epoch:005  step:040/050  loss:0.855
+2023-07-14 12:06:07,221 epoch:005  step:045/050  loss:0.890
+2023-07-14 12:12:03,665 epoch:005  step:050/050  loss:0.837
+2023-07-14 12:12:03,712 epoch:005  average_loss:0.847  time costed: 3594.222
+2023-07-14 12:15:34,187 current acc is 0.603, best acc is 0.609
+2023-07-14 12:15:34,187 time costed:3804.697s 
+
+2023-07-14 12:21:23,130 epoch:006  step:005/050  loss:0.848
+2023-07-14 12:27:26,007 epoch:006  step:010/050  loss:0.904
+2023-07-14 12:33:46,069 epoch:006  step:015/050  loss:0.742
+2023-07-14 12:40:42,808 epoch:006  step:020/050  loss:0.762
+2023-07-14 12:47:33,928 epoch:006  step:025/050  loss:0.885
+2023-07-14 12:54:09,631 epoch:006  step:030/050  loss:0.904
+2023-07-14 13:01:02,038 epoch:006  step:035/050  loss:0.876
+2023-07-14 13:08:02,628 epoch:006  step:040/050  loss:0.836
+2023-07-14 13:15:09,686 epoch:006  step:045/050  loss:0.931
+2023-07-14 13:22:22,177 epoch:006  step:050/050  loss:0.847
+2023-07-14 13:22:22,215 epoch:006  average_loss:0.820  time costed: 4008.028
+2023-07-14 13:26:57,852 current acc is 0.606, best acc is 0.609
+2023-07-14 13:26:57,865 time costed:4283.677s 
+
